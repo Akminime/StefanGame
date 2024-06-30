@@ -23,6 +23,8 @@ The **Unit** class encompasses all entities in the game, including buildings, tr
 
 - **Einherjar** are chosen warriors who dwell in Valhalla, led by Odin. They possess enhanced combat skills and resilience, embodying the Norse warrior spirit. Their armor and weapons have a distinct mystical quality with hues of silver and blue. These spirit warriors lack speed but gain in health.
 
+- **Future Races** include the Jotnar, powerfull giants from the realm of Jotunheim, the Elves, creatures that deal with magic that dwell from Alfhiem.
+
 ---
 
 **Structures** are placeable by the character and range from the **Main Base** to simple **Miners** or **Barricades**.
