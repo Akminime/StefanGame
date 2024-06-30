@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Steffans Game"
+run/main_scene="res://scenes/login.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
+boot_splash/bg_color=Color(0, 0, 0, 1)
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/resizable=false
 
 [dotnet]
 

@@ -1,3 +1,33 @@
-[gd_scene format=3 uid="uid://4qfou6khbrht"]
+[gd_scene load_steps=4 format=3 uid="uid://4qfou6khbrht"]
+
+[ext_resource type="Texture2D" uid="uid://cps6jw4q7opij" path="res://assets/textures/selectionBG.tres" id="1_wcm31"]
+[ext_resource type="FontFile" uid="uid://cwo52cuq6evvr" path="res://resources/Runic.otf" id="2_ulen3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xidxb"]
+font = ExtResource("2_ulen3")
+font_size = 60
+outline_size = 7
+outline_color = Color(0, 0, 0, 1)
 
 [node name="selection" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(575.5, 322.5)
+scale = Vector2(4.60547, 675)
+texture = ExtResource("1_wcm31")
+
+[node name="Dwarveslabel" type="Label" parent="."]
+offset_left = 61.0
+offset_top = 39.0
+offset_right = 228.0
+offset_bottom = 100.0
+text = "Dwarves"
+label_settings = SubResource("LabelSettings_xidxb")
+
+[node name="EinherjarLabel" type="Label" parent="."]
+offset_left = 847.0
+offset_top = 37.0
+offset_right = 1047.0
+offset_bottom = 98.0
+text = "Einherjar"
+label_settings = SubResource("LabelSettings_xidxb")
