@@ -19,9 +19,9 @@ The **Unit** class encompasses all entities in the game, including buildings, tr
 
 **Races** offer unique advantages and disadvantages. Starting races will be the **Dwarves** and the **Einherjar**. ![First Race Selection Version](DEMOS/RaceSelectiom.png)
 
-- **Dwarves** are master craftsmen and miners from the underground realms of Norse mythology. They excel at smithing and crafting sturdy armor and weapons. Their color palette includes earthy tones like browns and greens.
+- **Dwarves** are master craftsmen and miners from the underground realms of Norse mythology. They excel at smithing and crafting sturdy armor and weapons. Their color palette includes earthy tones like browns and greens. They are able to craft better equipment at the cost of extra resources.
 
-- **Einherjar** are chosen warriors who dwell in Valhalla, led by Odin. They possess enhanced combat skills and resilience, embodying the Norse warrior spirit. Their armor and weapons have a distinct mystical quality with hues of silver and blue.
+- **Einherjar** are chosen warriors who dwell in Valhalla, led by Odin. They possess enhanced combat skills and resilience, embodying the Norse warrior spirit. Their armor and weapons have a distinct mystical quality with hues of silver and blue. These spirit warriors lack speed but gain in health.
 
 ---
 
