@@ -17,7 +17,7 @@ The **Unit** class encompasses all entities in the game, including buildings, tr
 
 ---
 
-**Races** offer unique advantages and disadvantages. Starting races will be the **Dwarves** and the **Einherjar**. ![First Race Selection Version](DEMOS/RaceSelectiom.png)
+**Races** offer unique advantages and disadvantages. Starting races will be the **Dwarves** and the **Einherjar**. ![First Race Selection Version](DEMOS/RaceSelection.png)
 
 - **Dwarves** are master craftsmen and miners from the underground realms of Norse mythology. They excel at smithing and crafting sturdy armor and weapons. Their color palette includes earthy tones like browns and greens. They are able to craft better equipment at the cost of extra resources.
 

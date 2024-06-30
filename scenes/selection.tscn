@@ -1,13 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://4qfou6khbrht"]
+[gd_scene load_steps=6 format=3 uid="uid://4qfou6khbrht"]
 
 [ext_resource type="Texture2D" uid="uid://cps6jw4q7opij" path="res://assets/textures/selectionBG.tres" id="1_wcm31"]
-[ext_resource type="FontFile" uid="uid://cwo52cuq6evvr" path="res://resources/Runic.otf" id="2_ulen3"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_xidxb"]
-font = ExtResource("2_ulen3")
-font_size = 60
-outline_size = 7
-outline_color = Color(0, 0, 0, 1)
+[ext_resource type="LabelSettings" uid="uid://d2fovmting00t" path="res://prefabs/bigTextLabelSettings.tres" id="2_5r6uj"]
+[ext_resource type="LabelSettings" uid="uid://byf41kjf7uu34" path="res://prefabs/header2LabelSettings.tres" id="3_0h24k"]
+[ext_resource type="Texture2D" uid="uid://bkg7n4ltxd6oc" path="res://assets/textures/Hammer.png" id="4_ff2rx"]
+[ext_resource type="Texture2D" uid="uid://ucb4rnndwtxx" path="res://assets/textures/Axe.png" id="5_lnq6c"]
 
 [node name="selection" type="Node2D"]
 
@@ -16,18 +13,72 @@ position = Vector2(575.5, 322.5)
 scale = Vector2(4.60547, 675)
 texture = ExtResource("1_wcm31")
 
-[node name="Dwarveslabel" type="Label" parent="."]
+[node name="Dwarf" type="Node2D" parent="."]
+
+[node name="Dwarveslabel" type="Label" parent="Dwarf"]
 offset_left = 61.0
 offset_top = 39.0
 offset_right = 228.0
 offset_bottom = 100.0
 text = "Dwarves"
-label_settings = SubResource("LabelSettings_xidxb")
+label_settings = ExtResource("2_5r6uj")
 
-[node name="EinherjarLabel" type="Label" parent="."]
+[node name="Worker" type="Label" parent="Dwarf"]
+offset_left = 154.0
+offset_top = 147.0
+offset_right = 294.0
+offset_bottom = 178.0
+text = "Worker Dwarf"
+label_settings = ExtResource("3_0h24k")
+
+[node name="Light - Blacksmith" type="Label" parent="Dwarf"]
+offset_left = 155.0
+offset_top = 223.0
+offset_right = 295.0
+offset_bottom = 254.0
+text = "Blacksmith"
+label_settings = ExtResource("3_0h24k")
+
+[node name="Special - Dvalinn" type="Label" parent="Dwarf"]
+offset_left = 156.0
+offset_top = 293.0
+offset_right = 412.0
+offset_bottom = 324.0
+text = "Dvalinn The Dormant One"
+label_settings = ExtResource("3_0h24k")
+
+[node name="Sprite2D" type="Sprite2D" parent="Dwarf"]
+position = Vector2(290.25, 67.7501)
+scale = Vector2(0.223, 0.223)
+texture = ExtResource("4_ff2rx")
+
+[node name="Einherjar" type="Node2D" parent="."]
+
+[node name="Worker" type="Label" parent="Einherjar"]
+offset_left = 801.0
+offset_top = 145.0
+offset_right = 941.0
+offset_bottom = 176.0
+text = "Slain Farmer"
+label_settings = ExtResource("3_0h24k")
+
+[node name="EinherjarLabel" type="Label" parent="Einherjar"]
 offset_left = 847.0
 offset_top = 37.0
 offset_right = 1047.0
 offset_bottom = 98.0
 text = "Einherjar"
-label_settings = SubResource("LabelSettings_xidxb")
+label_settings = ExtResource("2_5r6uj")
+
+[node name="Light - Fallen Warrior" type="Label" parent="Einherjar"]
+offset_left = 788.0
+offset_top = 222.0
+offset_right = 943.0
+offset_bottom = 253.0
+text = "Fallen Warrior"
+label_settings = ExtResource("3_0h24k")
+
+[node name="Icon" type="Sprite2D" parent="Einherjar"]
+position = Vector2(795, 66)
+scale = Vector2(0.203, 0.203)
+texture = ExtResource("5_lnq6c")
