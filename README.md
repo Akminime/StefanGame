@@ -1,15 +1,3 @@
-<style>
-body {
-    font-family: 'Runic', Arial, sans-serif;
-}
-
-@font-face {
-    font-family: 'Runic';
-    src: url('/resources/Runic.otf') format('opentype');
-}
-</style>
-
-
 ## Game Plan
 
 ### Scenes
