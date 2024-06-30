@@ -5,6 +5,8 @@
 **Login Screen**
 - Username field at the top with options to either **Join Game** or **Create Game**.
 
+![Login Screen Idea](DEMOS/Login.png)
+
 **Selection Screen**
 - Players can select their race and units here. Example units include Miner, Heavy, Light, etc.
 
